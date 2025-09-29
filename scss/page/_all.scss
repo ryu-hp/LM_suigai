@@ -193,3 +193,136 @@ p {
 .sec05 {
     margin-top: rem(64);
 }
+.sec05__title {
+    position: relative;
+}
+.sec05__image-01 {
+    position: absolute;
+    width: calc(607 / 640 * 100%);
+    left: 0;
+    top: rem(60);
+}
+.sec05__inner {
+    margin-top: rem(-40);
+}
+.sec05__image-03 {
+    margin-top: rem(27);
+}
+
+.sec06 {
+    margin-top: rem(100);
+}
+.sec06__title {
+    position: relative;
+}
+.sec06__image-01 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: rem(20);
+    width: calc(502 / 640 * 100%);
+}
+.sec06__inner {
+    margin-top: rem(20);
+}
+.sec06__image-03 {
+    margin-top: rem(64);
+}
+
+.sec07 {
+    margin-top: rem(64);
+}
+.sec07__title {
+    position: relative;
+}
+.sec07__image-01 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: calc(459 / 640 * 100%);
+}
+.sec07__image-02 {
+    margin-top: rem(52);
+    width: calc(724 / 600 * 100%);
+    margin-left: calc(50% - (724 / 600 * 100% / 2));
+}
+.sec07__text-01 {
+    margin-top: rem(47);
+}
+.sec07__movie {
+    margin-top: rem(74);
+}
+.sec07__image-03 {
+    margin-top: rem(89);
+}
+.sec07__image-04 {
+    margin-top: rem(63);
+}
+.sec07__image-05 {
+    margin-top: rem(56);
+    width: calc(724 / 600 * 100%);
+    margin-left: calc(50% - (724 / 600 * 100% / 2));
+}
+.sec07__text-02 {
+    margin-top: rem(46);
+}
+.sec07__image-06 {
+    margin-top: rem(58);
+}
+.sec07__image-07 {
+    margin-top: rem(32);
+}
+.sec07__image-08 {
+    margin-top: rem(48);
+    width: calc(724 / 600 * 100%);
+    margin-left: calc(50% - (724 / 600 * 100% / 2));
+}
+.sec07__text-03 {
+    margin-top: rem(57);
+}
+.sec07__text-04 {
+    margin-top: rem(42);
+}
+.sec07__image-09 {
+    margin-top: rem(45);
+}
+.sec07__image-10 {
+    margin-top: rem(49);
+}
+.sec07__image-11 {
+    margin-top: rem(52);
+    width: calc(724 / 600 * 100%);
+    margin-left: calc(50% - (724 / 600 * 100% / 2));
+}
+.sec07__text-04 {
+    margin-top: rem(54);
+}
+.sec07__image-12 {
+    margin-top: rem(54);
+}
+.sec07__image-13 {
+    margin-top: rem(25);
+}
+.sec07__image-14 {
+    margin-top: rem(50);
+    width: calc(724 / 600 * 100%);
+    margin-left: calc(50% - (724 / 600 * 100% / 2));
+}
+.sec07__text-05 {
+    margin-top: rem(54);
+}
+.sec07__image-15 {
+    margin-top: rem(52);   
+}
+.sec07__cta {
+    position: relative;
+    margin-top: rem(100);
+}
+.sec07__cta-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    width: calc(569 / 640 * 100%);
+}
