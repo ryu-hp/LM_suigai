@@ -388,3 +388,63 @@ p {
 .sec03__content-item:not(:first-child) {
   margin-top: 2.5rem;
 }
+
+.sec04 {
+  position: relative;
+  margin-top: -1.25rem;
+}
+
+.sec04__title {
+  position: relative;
+}
+
+.sec04__image-01 {
+  position: absolute;
+  width: 90.15625%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 5rem;
+}
+
+.sec04__images-02 {
+  position: relative;
+  padding-top: 4.125rem;
+}
+
+.sec04__image-03-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.sec04__image-03 {
+  width: 70.3125%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec04__image-04 {
+  margin-top: 2.9375rem;
+}
+
+.sec04__text-01 {
+  margin-top: 2.8125rem;
+}
+
+.sec04__image-05 {
+  margin-top: 2.5625rem;
+}
+
+.sec04__image-06 {
+  margin-top: 3.25rem;
+  width: 90.3333333333%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec05 {
+  margin-top: 4rem;
+}
