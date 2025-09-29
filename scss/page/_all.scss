@@ -1,7 +1,11 @@
-
 @use "../global" as *;
 .text-yellow {
-    color: $color-theme;
+    color: $color-theme !important;
+}
+p {
+    color: $color-white;
+    line-height: 2;
+    font-size: rem(28);
 }
 .sp-wrapper {
     background-color: $color-black;
@@ -23,19 +27,26 @@
     align-items: center;
     gap: 8px;
 }
+.kv {
+    position: relative;
+    z-index: 1;
+}
 .kv__cta {
     position: relative;
+    margin-top: rem(200);
 }
 .kv__cta-btn {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 15%;
+    bottom: 31%;
+    width: calc( 570 / 640 * 100%);
 }
 
 .sec01 {
     position: relative;
-    z-index: 1;
+    margin-top: -145px;
+    padding-top: 145px;
 }
 .sec01__bg-image {
     position: absolute;
@@ -43,4 +54,42 @@
     top: 0;
     left: 0;
     width: 100%;
+}
+.sec01__text-01 {
+    margin-top: rem(48);
+}
+.sec01__image-02 {
+    margin-top: rem(80);
+}
+.sec01__image-03 {
+    width: calc(430 / 640 * 100%);
+    margin-top: rem(72);
+    margin-right:auto;
+    margin-left:auto;
+}
+.sec01__image-04 {
+    max-width: rem(600);
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: rem(69);
+}
+.sec01__image-05 {
+    margin-top: rem(84);
+    max-width: rem(600);
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.sec02 {
+    position: relative;
+}
+.sec02__bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.sec02__text-01 {
+    margin-top: rem(80);
 }

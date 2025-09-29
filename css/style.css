@@ -29,9 +29,9 @@ a:hover {
 
 .inner {
   width: 100%;
-  max-width: calc(1000px + 3.125rem);
-  padding-right: 1.5625rem;
-  padding-left: 1.5625rem;
+  max-width: calc(1000px + 2.5rem);
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-sizing: border-box;
@@ -39,8 +39,8 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .inner {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
   }
 }
 
@@ -207,6 +207,16 @@ select::-ms-expand {
   display: none !important;
 }
 
+.text-yellow {
+  color: #fcee21 !important;
+}
+
+p {
+  color: #fff;
+  line-height: 2;
+  font-size: 1.75rem;
+}
+
 .sp-wrapper {
   background-color: #000;
   max-width: 750px;
@@ -219,7 +229,7 @@ select::-ms-expand {
 }
 
 .header-inner {
-  padding: 10px 20px;
+  padding: 10px 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,8 +251,14 @@ select::-ms-expand {
   gap: 8px;
 }
 
+.kv {
+  position: relative;
+  z-index: 1;
+}
+
 .kv__cta {
   position: relative;
+  margin-top: 12.5rem;
 }
 
 .kv__cta-btn {
@@ -250,12 +266,14 @@ select::-ms-expand {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 15%;
+  bottom: 31%;
+  width: 89.0625%;
 }
 
 .sec01 {
   position: relative;
-  z-index: 1;
+  margin-top: -145px;
+  padding-top: 145px;
 }
 
 .sec01__bg-image {
@@ -264,4 +282,49 @@ select::-ms-expand {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.sec01__text-01 {
+  margin-top: 3rem;
+}
+
+.sec01__image-02 {
+  margin-top: 5rem;
+}
+
+.sec01__image-03 {
+  width: 67.1875%;
+  margin-top: 4.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec01__image-04 {
+  max-width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.3125rem;
+}
+
+.sec01__image-05 {
+  margin-top: 5.25rem;
+  max-width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec02 {
+  position: relative;
+}
+
+.sec02__bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.sec02__text-01 {
+  margin-top: 5rem;
 }
