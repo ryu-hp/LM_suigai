@@ -817,3 +817,10 @@ p {
   line-height: 1;
   font-size: 1.125rem;
 }
+
+.footer__copyright img {
+  display: block;
+  width: 34.140625%;
+  margin-right: auto;
+  margin-left: auto;
+}

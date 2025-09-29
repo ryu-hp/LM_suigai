@@ -484,3 +484,9 @@ p {
     line-height: 1;
     font-size: rem(18);
 }
+.footer__copyright img {
+    display: block;
+    width: calc(218.5 / 640 * 100%);
+    margin-right:auto;
+    margin-left:auto;
+}
