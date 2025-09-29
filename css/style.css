@@ -218,12 +218,25 @@ p {
   font-family: "Hiragino Kaku Gothic StdN", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+.body-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fcee21;
+  overflow-x: clip;
+}
+
 .sp-wrapper {
   background-color: #000;
   max-width: 750px;
   margin-right: auto;
   margin-left: auto;
   overflow-x: clip;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
