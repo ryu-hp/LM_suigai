@@ -215,6 +215,7 @@ p {
   color: #fff;
   line-height: 2;
   font-size: 1.75rem;
+  font-family: "Hiragino Kaku Gothic StdN", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .sp-wrapper {
@@ -258,7 +259,7 @@ p {
 
 .kv__cta {
   position: relative;
-  margin-top: 12.5rem;
+  margin-top: -12.5rem;
 }
 
 .kv__cta-btn {
@@ -315,6 +316,9 @@ p {
 
 .sec02 {
   position: relative;
+  z-index: 1;
+  padding-top: 2.5rem;
+  margin-top: 5rem;
 }
 
 .sec02__bg-image {
@@ -327,4 +331,60 @@ p {
 
 .sec02__text-01 {
   margin-top: 5rem;
+}
+
+.sec02__image-02 {
+  margin-top: 3.875rem;
+}
+
+.sec02__text-02 {
+  margin-top: 3.25rem;
+}
+
+.sec02__image-03 {
+  margin-top: 2.1875rem;
+}
+
+.sec02__text-03 {
+  margin-top: 2.375rem;
+  font-size: 1.125rem;
+  line-height: 1.1666666667;
+  text-align: center;
+}
+
+.sec02__image-04 {
+  margin-top: 4.25rem;
+}
+
+.sec03 {
+  margin-top: 3.4375rem;
+  padding-top: 3.125rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sec03__bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.sec03__image-01 {
+  width: 78.6666666667%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec03__text-01 {
+  margin-top: 3.3125rem;
+}
+
+.sec03__contents {
+  margin-top: 4.5rem;
+}
+
+.sec03__content-item:not(:first-child) {
+  margin-top: 2.5rem;
 }

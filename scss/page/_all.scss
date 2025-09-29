@@ -6,6 +6,7 @@ p {
     color: $color-white;
     line-height: 2;
     font-size: rem(28);
+    font-family: "Hiragino Kaku Gothic StdN", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
 }
 .sp-wrapper {
     background-color: $color-black;
@@ -33,7 +34,7 @@ p {
 }
 .kv__cta {
     position: relative;
-    margin-top: rem(200);
+    margin-top: rem(-200);
 }
 .kv__cta-btn {
     position: absolute;
@@ -82,6 +83,9 @@ p {
 
 .sec02 {
     position: relative;
+    z-index: 1;
+    padding-top: rem(40);
+    margin-top: rem(80);
 }
 .sec02__bg-image {
     position: absolute;
@@ -92,4 +96,50 @@ p {
 }
 .sec02__text-01 {
     margin-top: rem(80);
+}
+.sec02__image-02 {
+    margin-top: rem(62);
+}
+.sec02__text-02 {
+    margin-top: rem(52);
+}
+.sec02__image-03 {
+    margin-top: rem(35);
+}
+.sec02__text-03 {
+    margin-top: rem(38);
+    font-size: rem(18);
+    line-height: calc(21 / 18);
+    text-align: center;
+}
+.sec02__image-04 {
+    margin-top: rem(68);
+}
+
+.sec03 {
+    margin-top: rem(55);
+    padding-top: rem(50);
+    position: relative;
+    z-index: 1;
+}
+.sec03__bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.sec03__image-01 {
+    width: calc(472 / 600 * 100%);
+    margin-right:auto;
+    margin-left:auto;
+}
+.sec03__text-01 {
+    margin-top: rem(53);
+}
+.sec03__contents {
+    margin-top: rem(72);
+}
+.sec03__content-item:not(:first-child) {
+    margin-top: rem(40);
 }
