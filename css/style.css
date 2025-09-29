@@ -778,7 +778,18 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 0 0.625rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer__item {
   line-height: 2.1428571429;
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.footer__contents--sns {
+  margin-top: 3.75rem;
 }
 
 .footer__sns-list {
@@ -789,6 +800,8 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer__sns-item {
@@ -796,6 +809,7 @@ p {
 }
 
 .footer__copyright {
+  margin-top: 3.75rem;
   background-color: #fcee21;
   color: #000;
   text-align: center;

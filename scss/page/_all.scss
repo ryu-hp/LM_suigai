@@ -454,17 +454,29 @@ p {
     max-width: rem(384.9);
     justify-content: space-between;
     gap: 0 rem(10);
+    margin-right:auto;
+    margin-left:auto;
+}
+.footer__item {
     line-height: calc(60 / 28);
+    font-size: rem(28);
+    color: $color-white;
+}
+.footer__contents--sns {
+    margin-top: rem(60);
 }
 .footer__sns-list {
     display: flex;
     max-width: rem(283);
     justify-content: space-between;
+    margin-right:auto;
+    margin-left:auto;
 }
 .footer__sns-item {
     width: calc((100% - rem(32) ) / 3 );
 }
 .footer__copyright {
+    margin-top: rem(60);
     background-color: $color-theme;
     color: #000;
     text-align: center;
