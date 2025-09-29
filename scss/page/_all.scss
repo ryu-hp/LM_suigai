@@ -13,6 +13,7 @@ p {
     max-width: 750px;
     margin-right:auto;
     margin-left:auto;
+    overflow-x: clip;
 }
 .header {
     background-color: $color-theme;
@@ -323,6 +324,49 @@ p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20%;
+    bottom: 12%;
     width: calc(569 / 640 * 100%);
+}
+
+.sec08__title {
+    position: relative;
+    padding: rem(40);
+    z-index: 1;
+}
+.sec08__bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.sec08__image-01 {
+    width: calc(512 / 640 * 100%);
+    margin-right:auto;
+    margin-left:auto;
+}
+.sec08__movie {
+    margin-top: rem(49);
+}
+.sec08__text-01 {
+    margin-top: rem(42);
+}
+.sec08__image-02 {
+    margin-top: rem(77);
+}
+.sec08__image-03 {
+    margin-top: rem(30);
+}
+.sec08__image-04 {
+    margin-top: rem(30);
+}
+.sec08__image-05 {
+    margin-top: rem(30);
+}
+
+.sec09 {
+    margin-top: rem(93);
+}
+.sec09__image-02 {
+    margin-top: rem(77);
 }
