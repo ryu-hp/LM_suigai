@@ -1,0 +1,43 @@
+
+@use "../global" as *;
+.sp-wrapper {
+    background-color: $color-black;
+    max-width: 750px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.header {
+    background-color: $color-theme;
+}
+.header-inner {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.kv__cta {
+    position: relative;
+}
+.kv__cta-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+}
+
+.sec01 {
+    position: relative;
+    z-index: 1;
+}
+.sec01__bg-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
