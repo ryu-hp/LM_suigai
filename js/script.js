@@ -19,8 +19,8 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       $(window).on('scroll', fadeAnimation);
 
       // アコーディオンメニューの開閉動作
-      $('.is-AccordionTitle').on('click', function() {
-          var findElm = $(this).next(".accordion-content");
+      $('.accordion-item__head').on('click', function() {
+          var findElm = $(this).next(".accordion-item__content");
           $(findElm).toggleClass('open');//アコーディオンの上下動作
           $(this).toggleClass('active');
       });

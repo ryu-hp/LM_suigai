@@ -830,9 +830,9 @@ p {
 }
 
 .accordion-item {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   overflow: hidden;
-  padding: 40px 10px;
+  padding: 40px 25px;
 }
 
 .accordion-item__head * {
@@ -845,8 +845,9 @@ p {
 
 .accordion-item__icon {
   font-size: 2.8125rem;
-  line-height: 2.2444444444;
-  margin-right: 1rem;
+  line-height: 1;
+  margin-right: 1.5rem;
+  text-transform: uppercase;
 }
 
 .accordion-title,
@@ -863,12 +864,12 @@ p {
 }
 
 .accordion-item__head {
-  padding-bottom: 1.25rem;
+  padding-bottom: 2rem;
 }
 
 .accordion-item__content {
-  border-top: 3px dotted #fff;
-  padding-top: 1.25rem;
+  border-top: 4px dotted #fff;
+  padding-top: 2rem;
 }
 
 .sec12 {
