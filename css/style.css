@@ -233,6 +233,41 @@ select::-ms-expand {
     opacity: 1;
   }
 }
+/* 横からフェードイン */
+.slidein.is-animated {
+  -webkit-animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+          animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-180px);
+            transform: translateX(-180px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  60%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-180px);
+            transform: translateX(-180px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  60%, 100% {
+    opacity: 1;
+  }
+}
 p {
   color: #fff;
   line-height: 2;
