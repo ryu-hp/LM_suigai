@@ -1,28 +1,27 @@
-jQuery(function ($) { // この中であればWordpressでも「$」が使用可能になる
-  $(document).ready(function() {
-      function fadeAnimation() {
-          $('.js-animate').each(function() {
-          var elemPos = $(this).offset().top;
-          var windowHeight = $(window).height();
-          var scrollPos = $(window).scrollTop() + windowHeight - 100;
+jQuery(function ($) {
+  var sc = document.querySelector('.body-wrapper');
+  if (!('IntersectionObserver' in window) || !sc) return;
 
-          if (scrollPos > elemPos) {
-              $(this).addClass('is-animated');
-          }
-          })
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-animated');
+        io.unobserve(e.target); // 1回で監視解除
       }
-      
-      // 初回実行
-      fadeAnimation();
-      
-      // スクロールイベントに関数を登録
-      $(window).on('scroll', fadeAnimation);
+    });
+  }, {
+    root: sc,                 // ← ルートをスクロールコンテナに
+    rootMargin: '0px 0px -100px 0px',
+    threshold: 0
+  });
 
-      // アコーディオンメニューの開閉動作
-      $('.accordion-item__head').on('click', function() {
-          var findElm = $(this).next(".accordion-item__content");
-          $(findElm).toggleClass('open');//アコーディオンの上下動作
-          $(this).toggleClass('active');
-      });
-  })
-})
+  document.querySelectorAll('.js-animate').forEach(function (el) {
+    io.observe(el);
+  });
+
+  // アコーディオン（そのまま）
+  $('.accordion-item__head').on('click', function () {
+    $(this).toggleClass('active')
+      .next('.accordion-item__content').toggleClass('open');
+  });
+});
