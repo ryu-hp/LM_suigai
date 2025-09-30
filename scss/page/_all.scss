@@ -2,6 +2,24 @@
 .text-yellow {
     color: $color-theme !important;
 }
+/* 点滅 */
+.blinking{
+	-webkit-animation:blink 1s ease-in-out infinite alternate;
+    -moz-animation:blink 1s ease-in-out infinite alternate;
+    animation:blink 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 p {
     color: $color-white;
     line-height: 2;
@@ -35,6 +53,9 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+.header-logo {
+    width: calc(119 / 600 * 100%);
+}
 .header-nav-list {
     display: flex;
     align-items: center;
@@ -54,6 +75,13 @@ p {
 .kv__cta {
     position: relative;
     margin-top: rem(-200);
+}
+.kv__cta-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    width: calc(489 / 640 * 100%);
 }
 .kv__cta-btn {
     position: absolute;

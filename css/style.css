@@ -211,6 +211,28 @@ select::-ms-expand {
   color: #fcee21 !important;
 }
 
+/* 点滅 */
+.blinking {
+  -webkit-animation: blink 1s ease-in-out infinite alternate;
+  animation: blink 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 p {
   color: #fff;
   line-height: 2;
@@ -256,6 +278,10 @@ p {
           align-items: center;
 }
 
+.header-logo {
+  width: 19.8333333333%;
+}
+
 .header-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,6 +309,15 @@ p {
 .kv__cta {
   position: relative;
   margin-top: -12.5rem;
+}
+
+.kv__cta-text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 50%;
+  width: 76.40625%;
 }
 
 .kv__cta-btn {
