@@ -19,10 +19,11 @@ jQuery(function ($) {
     io.observe(el);
   });
   
-  // 最初のアイテムを開いておく
+  // 初期状態の設定
+  $('.accordion-item__content').hide(); // 全て閉じる
   var $first = $('.accordion-item').first();
   $first.addClass('is-open');
-  $first.find('.accordion-item__content').show();
+  $first.find('.accordion-item__content').show(); // 最初だけ開く
   // トグル
   $('.accordion-item__head').on('click', function () {
     var $item = $(this).closest('.accordion-item');
