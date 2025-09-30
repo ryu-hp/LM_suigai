@@ -486,6 +486,39 @@ p {
 .sec11__contents > *:not(:first-child) {
     margin-top: rem(27);
 }
+.accordion-item {
+    border: 1px solid $color-white;
+    overflow: hidden;
+    padding: 40px 10px;
+}
+.accordion-item__head * {
+    color: $color-theme;
+}
+.accordion-item__content * {
+    color: $color-white;
+}
+.accordion-item__icon {
+    font-size: rem(45);
+    line-height: calc(101 / 45);
+    margin-right: rem(16);
+}
+.accordion-title,
+.accordion-description {
+    font-size: rem(28);
+    line-height: calc(42 / 28);
+}
+.accordion-item__head,
+.accordion-item__content {
+    display: flex;
+}
+
+.accordion-item__head {
+    padding-bottom: rem(20);
+}
+.accordion-item__content {
+    border-top: 3px dotted $color-white;
+    padding-top: rem(20);
+}
 
 .sec12 {
     margin-top: rem(84);

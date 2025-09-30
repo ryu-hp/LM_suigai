@@ -17,5 +17,12 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
       
       // スクロールイベントに関数を登録
       $(window).on('scroll', fadeAnimation);
+
+      // アコーディオンメニューの開閉動作
+      $('.is-AccordionTitle').on('click', function() {
+          var findElm = $(this).next(".accordion-content");
+          $(findElm).toggleClass('open');//アコーディオンの上下動作
+          $(this).toggleClass('active');
+      });
   })
 })
