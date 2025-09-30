@@ -18,10 +18,11 @@ jQuery(function ($) {
   document.querySelectorAll('.js-animate').forEach(function (el) {
     io.observe(el);
   });
-
-  // アコーディオン（そのまま）
+  
+  // トグル
   $('.accordion-item__head').on('click', function () {
-    $(this).toggleClass('active')
-      .next('.accordion-item__content').toggleClass('open');
+    var $item = $(this).closest('.accordion-item');
+    $item.toggleClass('is-open');
+    $item.find('.accordion-item__content').stop(true, true).slideToggle(250);
   });
 });

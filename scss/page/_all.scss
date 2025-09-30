@@ -453,7 +453,7 @@ p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 30%;
+    bottom: 26%;
     width: calc(309 / 764 * 100%);
 }
 .sec09__image-cta-btn {
@@ -523,6 +523,10 @@ p {
 .accordion-item__content {
     border-top: 4px dotted $color-white;
     padding-top: rem(32);
+    display: none;
+}
+.accordion-item.is-open .accordion-item__content {
+    display: flex;
 }
 
 .sec12 {

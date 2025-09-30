@@ -789,7 +789,7 @@ p {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 30%;
+  bottom: 26%;
   width: 40.445026178%;
 }
 
@@ -875,6 +875,13 @@ p {
 .accordion-item__content {
   border-top: 4px dotted #fff;
   padding-top: 2rem;
+  display: none;
+}
+
+.accordion-item.is-open .accordion-item__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .sec12 {
