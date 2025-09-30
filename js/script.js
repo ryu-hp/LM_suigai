@@ -19,6 +19,10 @@ jQuery(function ($) {
     io.observe(el);
   });
   
+  // 最初のアイテムを開いておく
+  var $first = $('.accordion-item').first();
+  $first.addClass('is-open');
+  $first.find('.accordion-item__content').show();
   // トグル
   $('.accordion-item__head').on('click', function () {
     var $item = $(this).closest('.accordion-item');
