@@ -779,6 +779,15 @@ p {
   margin-left: -9.6875%;
 }
 
+.sec09__image-cta-text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 30%;
+  width: 40.445026178%;
+}
+
 .sec09__image-cta-btn {
   position: absolute;
   left: 50%;

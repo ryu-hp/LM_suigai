@@ -445,6 +445,13 @@ p {
     width: calc(764 / 640 * 100%);
     margin-left: calc(50% - (764 / 640 * 100% / 2));
 }
+.sec09__image-cta-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30%;
+    width: calc(309 / 764 * 100%);
+}
 .sec09__image-cta-btn {
     position: absolute;
     left: 50%;
