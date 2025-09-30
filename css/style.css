@@ -695,6 +695,15 @@ p {
   margin-top: 6.25rem;
 }
 
+.sec07__cta-text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 50%;
+  width: 63.90625%;
+}
+
 .sec07__cta-btn {
   position: absolute;
   left: 50%;
@@ -909,4 +918,14 @@ p {
   width: 34.140625%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.bottom-fix {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: 750px;
 }

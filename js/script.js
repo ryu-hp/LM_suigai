@@ -11,5 +11,11 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
           }
           })
       }
+      
+      // 初回実行
+      fadeAnimation();
+      
+      // スクロールイベントに関数を登録
+      $(window).on('scroll', fadeAnimation);
   })
 })
