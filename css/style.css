@@ -351,7 +351,7 @@ p {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 50%;
+  bottom: 62%;
   width: 76.40625%;
 }
 
@@ -700,7 +700,7 @@ p {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 50%;
+  bottom: 64%;
   width: 63.90625%;
 }
 
@@ -852,6 +852,7 @@ p {
 
 .footer {
   margin-top: 2.5rem;
+  padding-bottom: 22rem;
 }
 
 .footer__head {
@@ -937,4 +938,5 @@ p {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   max-width: 750px;
+  z-index: 1024;
 }

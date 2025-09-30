@@ -98,7 +98,7 @@ p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50%;
+    bottom: 62%;
     width: calc(489 / 640 * 100%);
 }
 .kv__cta-btn {
@@ -381,7 +381,7 @@ p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50%;
+    bottom: 64%;
     width: calc(409 / 640 * 100%);
 }
 .sec07__cta-btn {
@@ -506,6 +506,7 @@ p {
 
 .footer {
     margin-top: rem(40);
+    padding-bottom: rem(352);
 }
 .footer__head {
     margin-right:auto;
@@ -570,4 +571,5 @@ p {
     left: 50%;
     transform: translateX(-50%);
     max-width: 750px;
+    z-index: 1024;
 }
