@@ -867,14 +867,10 @@ p {
   display: flex;
 }
 
-.accordion-item__head {
-  padding-bottom: 2rem;
-}
-
 .accordion-item__content {
   border-top: 4px dotted #fff;
   padding-top: 2rem;
-  /* display: none; 削除 - slideToggle()で制御 */
+  margin-top: 2rem;
 }
 
 .accordion-item.is-open .accordion-item__content {

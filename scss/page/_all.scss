@@ -515,14 +515,10 @@ p {
 .accordion-item__head {
     display: flex;
 }
-
-.accordion-item__head {
-    padding-bottom: rem(32);
-}
 .accordion-item__content {
     border-top: 4px dotted $color-white;
     padding-top: rem(32);
-    /* display: none; 削除 - slideToggle()で制御 */
+    margin-top: rem(32);
 }
 .accordion-item.is-open .accordion-item__content {
     display: flex;
