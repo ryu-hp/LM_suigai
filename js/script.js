@@ -24,17 +24,21 @@ jQuery(function ($) {
   var bottomFix = document.querySelector('.bottom-fix');
   
   if (kvSection && bottomFix) {
-    // 初期状態では非表示
-    bottomFix.style.display = 'none';
+    // 初期状態の設定
+    bottomFix.style.opacity = '0';
+    bottomFix.style.visibility = 'hidden';
+    bottomFix.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
     
     var kvObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          // KVが画面内にある時は bottom-fix を非表示
-          bottomFix.style.display = 'none';
+          // KVが画面内にある時は bottom-fix をふわっと非表示
+          bottomFix.style.opacity = '0';
+          bottomFix.style.visibility = 'hidden';
         } else {
-          // KVが画面外にある時は bottom-fix を表示
-          bottomFix.style.display = 'block';
+          // KVが画面外にある時は bottom-fix をふわっと表示
+          bottomFix.style.opacity = '1';
+          bottomFix.style.visibility = 'visible';
         }
       });
     }, {
