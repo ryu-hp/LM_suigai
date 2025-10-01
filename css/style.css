@@ -275,6 +275,11 @@ p {
   font-family: "Hiragino Kaku Gothic StdN", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+video {
+  display: block;
+  width: 100%;
+}
+
 .body-wrapper {
   position: fixed;
   inset: 0;
