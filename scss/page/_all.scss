@@ -38,6 +38,10 @@
     opacity: 1;
   }
 }
+
+html {
+    scroll-behavior: smooth;
+}
 p {
     color: $color-white;
     line-height: 2;
