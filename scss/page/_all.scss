@@ -570,7 +570,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     max-width: rem(384.9);
-    justify-content: space-between;
+    justify-content: center;
     gap: 0 rem(10);
     margin-right:auto;
     margin-left:auto;
@@ -586,7 +586,7 @@ video {
 .footer__sns-list {
     display: flex;
     max-width: rem(283);
-    justify-content: space-between;
+    justify-content: center;
     margin-right:auto;
     margin-left:auto;
 }

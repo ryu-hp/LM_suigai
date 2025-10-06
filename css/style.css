@@ -938,9 +938,9 @@ video {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 24.05625rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 0 0.625rem;
   margin-right: auto;
   margin-left: auto;
@@ -961,9 +961,9 @@ video {
   display: -ms-flexbox;
   display: flex;
   max-width: 17.6875rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: auto;
   margin-left: auto;
 }
